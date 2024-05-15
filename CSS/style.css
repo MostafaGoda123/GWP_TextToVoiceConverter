@@ -1,0 +1,67 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;   }
+html {
+   font-size: 62.5%;
+   font-family: sans-serif;   }
+@media (max-width : 768px) {
+   html {
+      font-size: 43.75%;
+   }   }
+/*----------------------*/
+.voice {
+   width: 100%;
+   min-height: 100vh;
+   background: linear-gradient(45deg , #010758 , #490d61);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 3rem;   }
+.voice h1 {
+   font-size: 4rem;
+   color: white;   }
+.voice h1 span {
+   color: #ff2963 ;   }
+.voice textarea::placeholder {
+   color: #ddd ;
+   font-size: 2rem;   }
+.voice textarea {
+   width: 50rem ;
+   min-height: 30rem ;
+   resize: none ;
+   padding: 2rem ;
+   border: 0;
+   outline: 0;
+   border-radius: 2rem ;
+   background: #403d84;
+   font-size: 2rem ;
+   color: white ;   }
+.voice .row {
+   width: 50rem ;
+   display: flex;
+   align-items: center;
+   gap: 2rem ;   }
+.voice .row select {
+   width: 35rem ;
+   border: 0;
+   outline: 0;
+   border-radius: 3rem ;
+   height: 5rem ;
+   padding: 0 2rem ;
+   color: white;
+   background: #403d84;   }
+.voice .row button {
+   cursor: pointer;
+   border: 0;
+   outline: 0;
+   border-radius: 3rem ;
+   padding: 1.5rem 3rem ;
+   font-size: 2rem ;
+   color: white;
+   background: #ff2963 ;
+   display: flex;
+   align-items: center;
+   gap: 1rem ;  }
+/*----------------------*/
